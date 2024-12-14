@@ -1,14 +1,7 @@
-let username;
-console.log(typeof username);
+const clients = ["Mango", "Ajax", "Poly", "Kiwi"];
+console.log(clients.slice(-2)); // ['Poly', 'Kiwi']
+console.log(clients.slice(-1)); // ['Kiwi']
 
-let inputValue = null;
-console.log(typeof inputValue);
 
-const quantity = 17;
-console.log(typeof quantity);
 
-const message = "JavaScript";
-console.log(typeof message);
 
-const isSidebarOpen = false;
-console.log(typeof isSidebarOpen);
